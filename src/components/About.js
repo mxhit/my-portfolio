@@ -8,7 +8,6 @@ export default function About() {
                     mb:16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                         Hi, I'm Mohit.
-                        <br className="hidden lg:inline-block" />I have a penchant for web apps and F1. 
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         A B.Tech graduate in Computer Science currently working at Infosys as a Systems Engineer.

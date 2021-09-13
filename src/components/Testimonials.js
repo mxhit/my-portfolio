@@ -26,7 +26,7 @@ export default function Testimonials() {
                                         <span className="title-font font-medium text-white">
                                             {testimonial.name}
                                         </span>
-                                        <span className="text-gray-500 text-sm uppercase">
+                                        <span className="text-gray-500 text-sm py-1 uppercase">
                                             {testimonial.company}
                                         </span>
                                     </span>
