@@ -41,26 +41,14 @@ export default function Contact() {
             src="https://www.google.com/maps/embed/v1/place?q=Surat&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w-full px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
                 Surat <br />
-                Gujarat, India
+                GJ, India
               </p>
-            </div>
-            <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
-              </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                m.dodhia@outlook.com
-              </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                PHONE
-              </h2>
-              <p className="leading-relaxed">+91 98251 33116</p>
             </div>
           </div>
         </div>

@@ -14,14 +14,6 @@ export default function About() {
                         A B.Tech graduate in Computer Science currently working at Infosys as a Systems Engineer.
                         I am also an avid Formula One enthusiast.
                     </p>
-                    <div className="flex justify-center">
-                        <a
-                            href="#projects"
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6
-                                focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                            See My Past Work
-                        </a>
-                    </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
                     <img
