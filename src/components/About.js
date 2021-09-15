@@ -11,15 +11,14 @@ export default function About() {
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         A B.Tech graduate in Computer Science currently working at Infosys as a Systems Engineer.
-                        I am also an avid Formula One enthusiast.
+                        I am also an avid Formula One enthusiast. I love talking about food, theology and consumer technology.
                     </p>
                 </div>
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <div className="lg:max-w-sm lg:w-sm md:w-1/2 w-5/6">
                     <img
-                        className="object-cover object-center rounded"
+                        className="object-cover object-center rounded-full"
                         alt="hero"
-                        src="./coding.svg">
-
+                        src="./img/my-avatar.png">
                     </img>
                 </div>
             </div>
