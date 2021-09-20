@@ -1,5 +1,5 @@
 import React from "react";
-import { UserGroupIcon, EmojiHappyIcon } from "@heroicons/react/solid";
+import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
 import { testimonials } from "../data";
 
 export default function Testimonials() {
