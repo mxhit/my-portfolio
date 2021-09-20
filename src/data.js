@@ -15,4 +15,6 @@ export const skills = [
   "React",
   "Node.js",
   "MySQL",
+  "HTML",
+  "CSS"
 ];
