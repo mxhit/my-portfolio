@@ -40,7 +40,7 @@ export default function Contact() {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Surat&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          {/* <div className="bg-yellow-500 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-full px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -50,7 +50,7 @@ export default function Contact() {
                 GJ, India
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <form
           netlify
@@ -68,7 +68,7 @@ export default function Contact() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-white-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-900 rounded border border-gray-800 focus:border-yellow-600 focus:ring-2 focus:ring-yellow-700 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setName(e.target.value)}
             />
           </div>
@@ -80,7 +80,7 @@ export default function Contact() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-900 rounded border border-gray-800 focus:border-yellow-600 focus:ring-2 focus:ring-yellow-700 text-base outline-none text-gray-600 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
@@ -93,13 +93,13 @@ export default function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-white-900 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white-900 rounded border border-gray-800 focus:border-yellow-600 focus:ring-2 focus:ring-yellow-700 h-32 text-base outline-none text-gray-600 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            className="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
             Submit
           </button>
         </form>
