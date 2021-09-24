@@ -15,14 +15,14 @@ export default function Testimonials() {
                         <div className="p-4 w-full">
                             <div className="h-full bg-yellow-600 bg-opacity-60 p-8 rounded">
                                 <TerminalIcon className="block w-8 text-gray-900 mb-4" />
-                                <p className="leading-relaxed text-gray-900 mb-6">{testimonial.quote}</p>
+                                <p className="leading-relaxed text-gray-900 text-left mb-6 italic font-serif">"{testimonial.quote}"</p>
                                 <div className="inline-flex items-center">
                                     <img
                                         alt="testimonial"
                                         src={testimonial.image}
                                         className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                                     />
-                                    <span className="flex-grow flex flex-col pl-4">
+                                    <span className="flex-grow flex flex-col pl-4 text-left">
                                         <span className="title-font font-medium text-gray-900">
                                             {testimonial.name}
                                         </span>
