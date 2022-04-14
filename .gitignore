@@ -1,2 +1,4 @@
 node_modules
 portfolio.code-workspace
+config.env
+.DS_Store
