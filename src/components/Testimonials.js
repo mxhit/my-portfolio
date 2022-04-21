@@ -14,9 +14,8 @@ export default function Testimonials() {
                     { testimonials.map((testimonial) => (
                         <div className="p-4 md:w-1/2 w-full">
                             <div className="h-full bg-yellow-600 bg-opacity-60 p-8 rounded">
-                                <TerminalIcon className="block w-8 text-gray-900 mb-4" />
-                                <p className="leading-relaxed text-gray-900 text-left mb-6 italic font-serif">"{testimonial.quote}"</p>
-                                <div className="inline-flex items-center">
+                                {/* <TerminalIcon className="block w-8 text-gray-900 mb-4" /> */}
+                                <div className="flex items-center mb-4">
                                     <img
                                         alt="testimonial"
                                         src={testimonial.image}
@@ -31,6 +30,7 @@ export default function Testimonials() {
                                         </span>
                                     </span>
                                 </div>
+                                <p className="leading-relaxed text-gray-900 text-left mb-6 italic font-serif">"{testimonial.quote}"</p>
                             </div>
                         </div>
                     ))}
