@@ -2,12 +2,16 @@ import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import { skills } from "../data";
 
+// TO BE IMPLEMENTED IN THE NEXT UPDATE
+/* import { SiJava, SiJavascript, SiSpringboot, SiReact, SiNodedotjs, SiMysql, SiHtml5, SiCss3 } from "react-icons/si";
+import { MdOutlineWorkOutline } from "react-icons/md"; */
+
 export default function Skills() {
     return (
         <section id="skills">
             <div className="container px-5 py-10 mx-auto">
                 <div className="text-center mb-20">
-                    <ChipIcon className="w-10 inline-block mb-4" />
+                    <ChipIcon className="w-10 inline-block mb-4 text-4xl" />
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-black mb-4">
                         Skills
                     </h1>
