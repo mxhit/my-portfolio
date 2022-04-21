@@ -14,8 +14,11 @@ export default function Navbar() {
           <a href="#skills" className="mr-4 hover:text-black">
             Skills
           </a>
-          <a href="#testimonials" className="hover:text-black">
+          <a href="#testimonials" className="mr-4 hover:text-black">
             Testimonials
+          </a>
+          <a href="https://mxhit.hashnode.dev/" className="hover:text-black w-6 h-6 flex-shrink-0 mr" target="_blank" rel="noopener noreferrer">
+            Blog
           </a>
         </nav>
         <a
