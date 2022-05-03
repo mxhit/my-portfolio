@@ -21,12 +21,6 @@ export default function Navbar() {
             Blog
           </a>
         </nav>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-yellow-500 border-0 py-1 px-3 focus:outline-none
-            hover:bg-yellow-600 rounded text-base text-white mt-4 md:mt-0">
-          Contact Me
-        </a>
       </div>
     </header>
   );
