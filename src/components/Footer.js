@@ -4,7 +4,7 @@ import { MdAlternateEmail } from "react-icons/md"
 
 export default function Footer() {
     return(
-        <footer className="bg-yellow-500">
+        <footer className="bg-orange-accent">
             <div className="container mx-auto flex flex-row flex-nowrap gap-x-2 justify-center items-center py-4">
                 <a href="https://twitter.com/mxhit" target="_blank" rel="noopener noreferrer">
                     <FaTwitter className="w-6 h-6 text-white" />

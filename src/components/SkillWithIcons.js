@@ -6,7 +6,7 @@ export default function SkillWithIcons(skillObject) {
     let skillWithIcon = null;
 
     switch(skillObject.skill) {
-        case "Java": skillWithIcon = <SiJava className="text-white w-6 h-6 flex-shrink-0 mr-4" />;
+        case 'Java': skillWithIcon = <SiJava className="text-white w-6 h-6 flex-shrink-0 mr-4" />;
         break;
 
         case 'Spring Boot': skillWithIcon = <SiSpringboot className="text-white w-6 h-6 flex-shrink-0 mr-4" />;
@@ -37,7 +37,7 @@ export default function SkillWithIcons(skillObject) {
     }
     
     return(
-        <div className="bg-yellow-500 rounded flex p-4 h-full items-center">
+        <div className="bg-orange-accent rounded flex p-4 h-full items-center">
             {skillWithIcon}
             <span className="title-font font-medium text-white">
                 {skillObject.skill}
