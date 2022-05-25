@@ -3,8 +3,8 @@ import React from "react";
 export default function Navbar() {
   return (
     <header className="bg-orange-accent md:sticky top-0 z-10">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between font-press-start">
-        <a href="#about" className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl hover:text-dark-mode">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
+        <a href="#about" className="title-font font-medium font-press-start text-white mb-4 md:mb-0 ml-3 text-xl hover:text-dark-mode">
             Mohit Dodhia
         </a>
         <nav className="md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
@@ -14,7 +14,7 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-4 hover:text-black">
             Testimonials
           </a>
-          <a href="https://mxhit.medium.com/" className="hover:text-black w-6 h-6 flex-shrink-0 mr" target="_blank" rel="noopener noreferrer">
+          <a href="https://mxhit.medium.com/" className="hover:text-black w-6 h-6 flex-shrink-0" target="_blank" rel="noopener noreferrer">
             Blog
           </a>
         </nav>
