@@ -14,7 +14,7 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-4 hover:text-black">
             Testimonials
           </a>
-          <a href="https://mxhit.medium.com/" className="hover:text-black w-6 h-6 flex-shrink-0" target="_blank" rel="noopener noreferrer">
+          <a href="https://mxhit.github.io/" className="hover:text-black w-6 h-6 flex-shrink-0" target="_blank" rel="noopener noreferrer">
             Blog
           </a>
         </nav>
